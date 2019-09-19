@@ -1,16 +1,25 @@
 <template>
   <div class="wrapper">
     <side-bar>
-      <mobile-menu slot="content"></mobile-menu>
+      <!-- <mobile-menu slot="content"></mobile-menu> -->
+      <sidebar-link to="/hunter/info">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>基本資訊</p>
+      </sidebar-link>
+      <sidebar-link to="/hunter/weapon">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>武器介紹</p>
+      </sidebar-link>
+
       <!-- <sidebar-link to="/admin/overview">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
-      </sidebar-link> -->
+      </sidebar-link>
       <sidebar-link to="/admin/user">
         <i class="nc-icon nc-circle-09"></i>
         <p>User Profile</p>
       </sidebar-link>
-      <!-- <sidebar-link to="/admin/table-list">
+      <sidebar-link to="/admin/table-list">
         <i class="nc-icon nc-notes"></i>
         <p>Table list</p>
       </sidebar-link>
@@ -32,13 +41,13 @@
       </sidebar-link> -->
 
       <template slot="bottom-links">
-        <sidebar-link
+        <!-- <sidebar-link
           class="active"
           to="/admin/upgrade"
         >
           <i class="nc-icon nc-alien-33"></i>
           <p>Upgrade to PRO</p>
-        </sidebar-link>
+        </sidebar-link> -->
       </template>
     </side-bar>
     <div class="main-panel">
@@ -48,7 +57,7 @@
 
       </dashboard-content>
 
-      <content-footer></content-footer>
+      <!-- <content-footer></content-footer> -->
     </div>
   </div>
 </template>
