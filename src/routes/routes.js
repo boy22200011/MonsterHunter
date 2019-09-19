@@ -5,6 +5,7 @@ import NotFound from '../pages/NotFoundPage.vue'
 // MHW pages
 import Weapon from 'src/pages/hunter/weapon.vue'
 import Info from 'src/pages/hunter/Info.vue'
+import Test from 'src/pages/hunter/Test.vue'
 const routes = [
   {
     path: '/',
@@ -25,6 +26,11 @@ const routes = [
         path: 'weapon',
         name: 'Weapon',
         component: Weapon
+      },
+      {
+        path: 'test',
+        name: 'Test',
+        component: Test
       }
     ]
   },

@@ -10,7 +10,10 @@
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>武器介紹</p>
       </sidebar-link>
-
+      <sidebar-link to="/hunter/test">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>測試</p>
+      </sidebar-link>
       <!-- <sidebar-link to="/admin/overview">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
