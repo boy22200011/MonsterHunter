@@ -33,6 +33,7 @@ Vue.use(LightBootstrap)
 Vue.use(ElementUI)
 // configure router
 const router = new VueRouter({
+  mode: 'hash',
   routes, // short for routes: routes
   linkActiveClass: 'nav-item active',
   scrollBehavior: to => {
