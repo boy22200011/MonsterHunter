@@ -7,18 +7,21 @@
   >
     <div class="sidebar-wrapper">
       <div class="logo">
-        <a
-          href="#"
-          class="simple-text logo__container"
-        >
-          <div class="logo-img">
-            <img
-              src="img/icons/iceborne.jpg"
-              alt=""
-            >
-          </div>
-          {{title}}
-        </a>
+        <router-link to="/">
+          <a
+            href="#"
+            class="simple-text logo__container"
+          >
+            <div class="logo-img">
+              <img
+                src="img/icons/iceborne.jpg"
+                alt=""
+              >
+            </div>
+            {{title}}
+          </a>
+        </router-link>
+
       </div>
 
       <slot name="content"></slot>
