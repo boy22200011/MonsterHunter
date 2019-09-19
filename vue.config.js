@@ -18,19 +18,11 @@ module.exports = {
       alias: {
         src: resolveSrc('src'),
         'chart.js': 'chart.js/dist/Chart.js'
-      },
-      extensions: ['.ts', '.js', '.vue', '.json'] // 如果import 不寫檔名 會自動收尋
+      }
     },
     plugins: [
       new webpack.optimize.LimitChunkCountPlugin({
         maxChunks: 6
-      }),
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery',
-        'root.jQuery': 'jquery',
-        moment: 'moment'
       })
     ]
   },
