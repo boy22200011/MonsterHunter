@@ -14,7 +14,7 @@ const routes = [
   {
     path: '/hunter',
     component: DashboardLayout,
-    redirect: '/hunter/weapon',
+    redirect: '/hunter/Info',
     children: [
       {
         path: 'info',
